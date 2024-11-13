@@ -1,0 +1,94 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #2c3e50;
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 3px solid aqua;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: aqua;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: aqua;
+}
+
+textarea,input {
+    width: calc(100% - 17px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #08bbf1;
+    border-radius: 4px;
+    color: #000000;
+}
+
+button {
+    border-radius: 3px;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:  rgb(10, 223, 223);
+}
+
+button:active {
+    background-color: #ff0000;
+}
+
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid  #000000;
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color:  #000000;
+}
+
+#resumeOutput h2 {
+    color: #000000;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid aqua;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
